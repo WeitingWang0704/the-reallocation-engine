@@ -33,8 +33,15 @@ node --test scripts/contrib/2026fa/WeitingWang0704-game-dev-h1b-soc-15-1252/tria
 
 **GitHub repository:** https://github.com/WeitingWang0704/the-reallocation-engine
 **Branch:** `contrib/2026fa-WeitingWang0704-game-dev-h1b-soc-15-1252`
-**PR URL:** <FILL IN AFTER OPENING THE PR>
-**Submitted commit SHA:** <FILL IN — `git rev-parse HEAD` after the commit>
+**PR URL:** https://github.com/nikbearbrown/the-reallocation-engine/pull/36
+**Submitted commit SHA:** `526a792ed6426d8d1234f6710a82494483de548b`
+
+That is the commit carrying all 27 files of this submission, and it is the
+commit the PR was opened against. A single follow-up commit on the same branch
+adds the two lines directly above — the PR URL and this SHA — which a commit
+cannot contain about itself. The ZIP uploaded to Canvas is built from the branch
+including that follow-up commit, so its contents match the PR's head; the
+`git log` on the PR's Commits tab shows both.
 
 **Lifecycle stage claimed:** `DRAFT` · `last_gate: null` · `attestation: null` ·
 `todos_open: 2`.
