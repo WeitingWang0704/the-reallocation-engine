@@ -290,7 +290,7 @@ checked on a calculator.
 | Ran | Saw | Expected |
 |---|---|---|
 | `node --test .../triage.test.mjs` | `tests 16 · pass 16 · fail 0`, no host contacted | all pass offline |
-| sample run, 8 postings | `6 scored · Apply 1 · Consider 4 · Skip 1`, 2 blocked | some scored, some refused |
+| sample run, 10 postings | `6 scored · Apply 1 · Consider 4 · Skip 1`, 4 blocked | some scored, some refused |
 | `--opt-end 2026-01-01` (past date) | `E_OPT_DATE_PAST`, `exit=3`, output dir never created | refuse and write nothing |
 | `--soc 99-9999` | `E_SOC_NOT_FOUND`, `exit=3` | refuse, invent no wage |
 | invented company `Lanternfish Studios Inc` | `NOT_IN_RECORD`, no sponsorship value emitted | no number at all, not a zero |

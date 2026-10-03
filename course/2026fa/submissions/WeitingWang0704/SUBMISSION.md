@@ -79,8 +79,8 @@ Files: `recipes/cases/2026fa/` (recipe + card),
 `scripts/contrib/2026fa/WeitingWang0704-game-dev-h1b-soc-15-1252/` (prototype,
 tests, fixtures, README), `logs/runs/2026fa-WeitingWang0704-1.md`, and
 `course/2026fa/submissions/WeitingWang0704/` (brief, justification, worked run,
-test report, sector verification, frictional log, sources, PR body). 24 files,
-~4,600 insertions, **0 deletions and 0 modifications** — no existing file is
+test report, sector verification, frictional log, sources, PR body). 27 files,
+5,222 insertions, **0 deletions and 0 modifications** — no existing file is
 touched.
 
 ## Known limitations

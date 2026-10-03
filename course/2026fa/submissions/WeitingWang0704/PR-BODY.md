@@ -117,7 +117,7 @@ rec=Skip composite=0
 
 ## Scope
 
-27 files, **5,176 insertions, 0 deletions, 0 modifications.** Every path is under
+27 files, **5,222 insertions, 0 deletions, 0 modifications.** Every path is under
 `recipes/cases/2026fa/`, `scripts/contrib/2026fa/WeitingWang0704-…/`,
 `logs/runs/` or `course/2026fa/submissions/WeitingWang0704/`. No protected path
 is touched and `logs/RUN_LOG.md` is not edited.

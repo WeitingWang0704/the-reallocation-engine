@@ -41,7 +41,7 @@ For each posting on your shortlist: has this company ever sponsored an H-1B, and
 
 ## Annotated commands
 
-Sample run (expected: 6 scored, 2 blocked, skip rate 17%):
+Sample run (expected: 6 scored, 4 blocked, skip rate 17%, liveness 2/9 checked):
 
 ```bash
 node scripts/contrib/2026fa/WeitingWang0704-game-dev-h1b-soc-15-1252/triage.mjs \

@@ -23,9 +23,10 @@ node scripts/conformance.mjs <all four namespaces> → 26 files · ✓ all confo
 node scripts/pii-scan.mjs → 1 finding, package-lock.json — pre-existing in HEAD
 ```
 
-**Inputs** — `fixtures/postings.sample.json` (8 postings at 6 companies; companies
-are real CSV rows, job titles and URLs invented), `fixtures/liveness.sample.json`
-(7 entries, flagged `_synthetic: true`), `--opt-end 2027-01-31`,
+**Inputs** — `fixtures/postings.sample.json` (10 postings at 8 companies; the
+companies are real CSV rows, the job titles and URLs invented except for two real
+liveness-checked posting URLs), `fixtures/liveness.sample.json` (9 entries, 2 of
+them observed and flagged `synthetic: false`), `--opt-end 2027-01-31`,
 `--hiring-lag-days 75`, `--soc 15-1252`.
 
 **Result** — 6 scored (Apply 1 · Consider 4 · Skip 1), 4 blocked at a gate, skip
